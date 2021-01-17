@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="logo.png">
+    <title>Contact</title>
+</head>
+<body style="text-align: left;">
+    <form action="backend.php">
+        <a href="index.html" class="abc">Home</a>
+        <a href="gallery.html" class="abc">Gallery</a>
+        <a href="about.html" class="abc">About</a>
+        <a href="contact.html" class="abc">Contact</a>
+        <hr>
+        <h1 style="text-align: left;">Contact</h1>
+        <fieldset style="width: 50%;">
+        <h3 style="text-align: left;">Enter your details</h3>
+        <div>
+            Name : <input type="text" placeholder="Enter your name"> 
+            Email : <input type="email" placeholder="Enter your email">
+            <!-- Contact : <input type="number" placeholder="Enter your mobile no.">  -->
+        </div>
+        </fieldset>
+        <br>
+        <fieldset style="width: 50%;">
+        <div>
+            Where did you hear about our website?
+            <br>
+            <br>
+            <input type="checkbox" name="Google" id=""><label for="Google">Google</label>
+            <br>
+            <input type="checkbox" name="Friends" id=""><label for="Friends">Friends</label>
+            <br>
+            <input type="checkbox" name="Social Sites" id=""><label for="Social Sites">Social Sites</label>
+        </div>
+        </fieldset>
+        <br>
+        <fieldset style="width: 50%;">
+            <div>
+                How do you rate us?
+                <select name="" id="">
+                    <option value="⭐">⭐</option>
+                    <option value="⭐⭐">⭐⭐</option>
+                    <option value="⭐⭐⭐">⭐⭐⭐</option>
+                    <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+                    <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+                </select>
+            </div>
+        <div>
+            <p>Enter your feedback : </p>
+            <textarea name="Enter your feedback" id="Enter your feedback" cols="30" rows="10" placeholder="Enter your feedback here"></textarea>
+        </div> 
+        </fieldset>
+        <br>
+            <input type="button" value="Submit">
+            <input type="button" value="Reset">
+    </form>
+</body>
+</html>
